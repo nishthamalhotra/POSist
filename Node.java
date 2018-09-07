@@ -6,8 +6,6 @@ public class Node
     static int nodeNumber=0;
     String nodeId;
     String referenceNodeId;
-    //ArrayList<String> childReferenceNodeId;
-    String genesisReferenceNodeId;
     String hashValue;
     
     public Node(Date timestamp, String nodeId, String referenceNodeId,
